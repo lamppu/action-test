@@ -1,0 +1,69 @@
+{
+  "revision": "",
+  "path": "",
+  "jobConfigs": {
+    "analyzer": {
+      "allowDynamicVersions": true,
+      "skipExcluded": true,
+      "environmentConfig": {
+        "infrastructureServices": []
+      },
+      "enabledPackageManagers": [
+        "Bazel",
+        "Bower",
+        "Bundler",
+        "Cargo",
+        "Carthage",
+        "CocoaPods",
+        "Composer",
+        "Conan",
+        "Gleam",
+        "GoMod",
+        "GradleInspector",
+        "Maven",
+        "NPM",
+        "NuGet",
+        "OrtProjectFile",
+        "PIP",
+        "Pipenv",
+        "PNPM",
+        "Poetry",
+        "Pub",
+        "SBT",
+        "SPDX",
+        "SpdxDocumentFile",
+        "Stack",
+        "SwiftPM",
+        "Tycho",
+        "Yarn",
+        "Yarn2",
+        "Unmanaged"
+      ]
+    },
+    "reporter": {
+      "formats": [
+        "CycloneDX",
+        "SpdxDocument",
+        "WebApp"
+      ],
+      "config": {
+        "SpdxDocument": {
+          "options": {
+            "outputFileFormats": "YAML,JSON"
+          },
+          "secrets": {}
+        },
+        "CycloneDX": {
+          "options": {
+            "outputFileFormats": "XML,JSON"
+          },
+          "secrets": {}
+        }
+      }
+    },
+    "parameters": {}
+  },
+  "labels": {},
+  "jobConfigContext": "",
+  "environmentConfigPath": ""
+}
