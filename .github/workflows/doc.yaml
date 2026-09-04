@@ -16,6 +16,7 @@ jobs:
       - name: Setup Double Open CLI
         uses: eclipse-apoapsis/actions/setup-osc@main
         with:
+          osc-version: '0.90.0'
           url: https://ort-api.scw.doubleopen.io
           client-id: ${{ vars.OSC_CLIENT_ID }}
           username: ${{ vars.OSC_USERNAME }}
