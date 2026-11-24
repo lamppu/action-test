@@ -40,6 +40,13 @@
         "Unmanaged"
       ]
     },
+    "scanner": {
+      "skipConcluded": true,
+      "skipExcluded": true,
+      "scanners": [
+        "DOS"
+      ]
+    },
     "reporter": {
       "formats": [
         "CycloneDX",
